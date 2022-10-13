@@ -1,0 +1,28 @@
+//[Deprecated] Debugger for Chrome
+
+Colores para lo nuevo de JS
+//Babel Javascript
+
+Para comentar en colores
+//Better Comments
+
+para automatizar los snipets
+//Bootstrap
+
+//ESlint
+para reglas en js
+
+Visualiza a un lado del código la imagen
+//image preview
+
+para cambiar la forma de los iconos de las carpetas
+//Material icon theme
+
+Para autocompletar las rutas 
+//Path Intellisense
+
+
+
+
+
+

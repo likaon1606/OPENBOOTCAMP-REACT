@@ -1,0 +1,14 @@
+.contact-action {
+    cursor: pointer;
+}
+
+.card-body {
+    display: flex;
+    & table {
+        margin-bottom: 18rem;
+    } & th {
+        padding: 1rem;
+    }
+}
+
+
