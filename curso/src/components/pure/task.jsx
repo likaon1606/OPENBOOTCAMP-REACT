@@ -55,7 +55,7 @@ const TaskComponent = ({ task, complete, deleted }) => {
         <i
           onClick={() => complete(task)}
           className="bi-toggle-on task-action"
-          style={{ color: "green" }}
+          style={{ color: "green", paddingRight: "1rem" }}
         ></i>
       );
     } else {
@@ -63,14 +63,14 @@ const TaskComponent = ({ task, complete, deleted }) => {
         <i
           onClick={() => complete(task)}
           className="bi-toggle-off task-action"
-          style={{ color: "grey" }}
+          style={{ color: "grey", paddingRight: "1rem" }}
         ></i>
       );
     }
   }
 
   const taskCompleted = {
-    color: "gray",
+    color: "green",
     fontWeight: "bold",
     textDecoration: "line-through",
   };

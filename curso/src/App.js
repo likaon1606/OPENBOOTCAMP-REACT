@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import React from "react";
 import "./App.css";
-import AxiosCRUDExample from "./components/pure/AxiosCRUDExample";
+// import AxiosCRUDExample from "./components/pure/AxiosCRUDExample";
 // import FetchExample from "./components/FetchExample";
 // import AxiosExample from "./components/pure/AxiosExample";
 // import AsyncExample from "./components/pure/AsyncExample";
@@ -15,8 +15,8 @@ import AxiosCRUDExample from "./components/pure/AxiosCRUDExample";
 // import Ejemplo4 from './hooks/Ejemplo4';
 // import Greetingstyled from './components/pure/greetingStyled';
 // import Father from './components/container/father';
-// import TaskListComponent from "./components/container/task_list";
-// import LoginFormik from "./components/pure/forms/loginFormik";
+import TaskListComponent from "./components/container/task_list";
+import LoginFormik from "./components/pure/forms/loginFormik";
 // import OptionalRender from "./components/pure/optionalRender";
 
 function App() {
@@ -63,10 +63,10 @@ function App() {
       {/* <ObservableExample /> */}
       {/* <FetchExample /> */}
       {/* <AxiosExample /> */}
-      <AxiosCRUDExample />
+      {/* <AxiosCRUDExample /> */}
 
       {/* PROYECTO FINAL */}
-      {/* <TaskListComponent /> */}
+      <TaskListComponent />
       {/* <RegisterFormik /> */}
     </div>
   );
